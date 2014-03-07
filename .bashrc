@@ -99,6 +99,24 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 # ~/.bash_aliases, instead of adding them here directly.
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
 
+# Git aliases
+alias gs='git status'
+alias gr='git remote -v'
+alias ga='git add'
+alias gaa='git add -A .'
+alias gdh='git diff HEAD'
+alias gd='git diff'
+alias gcm='git commit -m'
+alias gco='git checkout'
+alias gr='git rebase'
+alias gf='git fetch'
+alias grom='git rebase origin/master'
+alias gcp='git cherry-pick'
+alias gst='git stash'
+alias gstp='git stash pop'
+alias gsts='git stash save'
+
+
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
