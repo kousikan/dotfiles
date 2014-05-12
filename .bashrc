@@ -146,5 +146,7 @@ export PIG_INSTALL=/home/k/Programs/pig-0.11.1
 export PIG_CLASSPATH=/home/k/Programs/hadoop-0.23.7/etc/hadoop
 export ECLIPSE_HOME=/home/k/Programs/eclipse
 
+set -o vi
+
 PATH=$PATH:$HADOOP_HOME/bin:$HADOOP_HOME/sbin:$PIG_HOME/bin:$ECLIPSE_HOME
 
